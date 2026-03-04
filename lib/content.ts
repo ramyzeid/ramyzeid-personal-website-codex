@@ -46,17 +46,6 @@ export type TalkMeta = BaseMeta & {
   };
 };
 
-export type ProjectMeta = BaseMeta & {
-  period: string;
-  status: 'Active' | 'Completed' | 'Planned';
-  summary: string;
-  links?: {
-    repo?: string;
-    demo?: string;
-    writeup?: string;
-  };
-};
-
 export type ResearchMeta = BaseMeta & {
   summary: string;
   relatedPublications: string[];
@@ -146,10 +135,6 @@ export function getWritingBySlug(slug: string): { meta: WritingMeta; content: st
 export function getTalks(): TalkMeta[] {
   const items = getDirEntries('talks').map((filePath) => parseMdxFile<TalkMeta>(filePath).meta);
   return sortByYearDesc(items);
-}
-
-export function getProjects(): ProjectMeta[] {
-  return getDirEntries('projects').map((filePath) => parseMdxFile<ProjectMeta>(filePath).meta);
 }
 
 export function getResearchThemes(): ResearchMeta[] {

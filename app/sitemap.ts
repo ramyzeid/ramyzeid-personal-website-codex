@@ -5,7 +5,7 @@ import { absoluteUrl } from '@/lib/site';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  const staticRoutes = ['/', '/about/', '/publications/', '/research/', '/writing/', '/talks/', '/projects/', '/contact/'];
+  const staticRoutes = ['/', '/about/', '/publications/', '/research/', '/writing/', '/talks/', '/contact/'];
 
   const publicationRoutes = getAllPublicationSlugs().map((slug) => `/publications/${slug}/`);
   const writingRoutes = getAllWritingSlugs().map((slug) => `/writing/${slug}/`);

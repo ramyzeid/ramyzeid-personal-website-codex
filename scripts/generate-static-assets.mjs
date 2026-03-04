@@ -68,7 +68,7 @@ function generateRss() {
 }
 
 function generateSitemap() {
-  const staticRoutes = ['/', '/about/', '/publications/', '/research/', '/writing/', '/talks/', '/projects/', '/contact/'];
+  const staticRoutes = ['/', '/about/', '/publications/', '/research/', '/writing/', '/talks/', '/contact/'];
   const publicationRoutes = readMdxDir('publications').map((item) => `/publications/${item.slug}/`);
   const writingRoutes = readMdxDir('writing').map((item) => `/writing/${item.slug}/`);
 

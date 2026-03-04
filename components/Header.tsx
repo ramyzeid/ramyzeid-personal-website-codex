@@ -9,7 +9,6 @@ const navItems = [
   ['Research', '/research'],
   ['Writing', '/writing'],
   ['Talks', '/talks'],
-  ['Projects', '/projects'],
   ['Contact', '/contact']
 ] as const;
 

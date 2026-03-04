@@ -53,13 +53,6 @@ All content is editable via MDX files under `/content`.
    - `title`, `event`, `location`, `date`, `tags`
    - optional `links.slides`, `links.video`
 
-### Add a project
-
-1. Create `content/projects/your-slug.mdx`
-2. Add frontmatter:
-   - `title`, `period`, `status` (`Active|Completed|Planned`), `summary`, `tags`
-   - optional `links.repo`, `links.demo`, `links.writeup`
-
 ## Files to Replace
 
 - `public/cv.pdf`: replace placeholder CV
