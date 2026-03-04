@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Ramy Zeid - Writing</title>
+  <link>https://ramyzeid.com</link>
+  <description>Writing on economics, policy, and methods.</description>
+  <item>
+  <title>Why the Care Economy Matters Now</title>
+  <link>https://ramyzeid.com/writing/why-care-economy-now/</link>
+  <guid>https://ramyzeid.com/writing/why-care-economy-now/</guid>
+  <pubDate>Thu, 15 Jan 2026 00:00:00 GMT</pubDate>
+  <description>A short note on why demographic transition makes care policy central to growth and inclusion.</description>
+</item>
+<item>
+  <title>Measuring Informality Better</title>
+  <link>https://ramyzeid.com/writing/measuring-informality-better/</link>
+  <guid>https://ramyzeid.com/writing/measuring-informality-better/</guid>
+  <pubDate>Mon, 03 Nov 2025 00:00:00 GMT</pubDate>
+  <description>Simple practical improvements for informality measurement in labor force and admin data.</description>
+</item>
+<item>
+  <title>A Checklist for Policy Briefs that Actually Get Used</title>
+  <link>https://ramyzeid.com/writing/policy-brief-checklist/</link>
+  <guid>https://ramyzeid.com/writing/policy-brief-checklist/</guid>
+  <pubDate>Fri, 20 Jun 2025 00:00:00 GMT</pubDate>
+  <description>A compact checklist for writing briefs that survive decision timelines.</description>
+</item>
+<item>
+  <title>Building Reproducible Policy Analytics Pipelines</title>
+  <link>https://ramyzeid.com/writing/building-reproducible-policy-pipelines/</link>
+  <guid>https://ramyzeid.com/writing/building-reproducible-policy-pipelines/</guid>
+  <pubDate>Mon, 10 Feb 2025 00:00:00 GMT</pubDate>
+  <description>How to structure policy analytics so updates are fast, explainable, and auditable.</description>
+</item>
+</channel>
+</rss>
